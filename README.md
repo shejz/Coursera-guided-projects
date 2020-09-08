@@ -10,3 +10,5 @@
 - Cars Moving Detection
 - Car's Plate Detection
 
+## Movie Recommendation System using Collaborative Filtering
+- Create, train and evaluate recommendation engine with Scikit-Surprise.
