@@ -25,10 +25,22 @@ When we train neural network models, you may notice the model performing signifi
 - Be able to apply both weight regularization and dropout regularization in Keras with TensorFlow backend
 
 **Regularization**
+
 One of the reasons for **over-fitting** is that some of these parameter values can become somewhat large and therefore become too influential on the linear outputs of various hidden units and subsequently become too influential on the non-linear outputs from the activation functions as well. And it can be observed that by regularizing the weights in a way that their values don't become too large, we can reduce the over-fitting. In dropouts, by randomly removing certain nodes in a model, we are forcing the model to NOT assign large values to any particular weights - we are simply forcing the model to NOT rely on any particular weight too much. So, the result is, much like the weight normalization, that the values for weights will be regularized and will not become too large thereby reducing over-fitting.
 
 **Results**
+
 Now that your training is now complete, you should be able to see the training accuracy and the validation accuracy. The training accuracy keeps increasing as we train for more epochs and reaches a value that is consistently much higher than the validation accuracy. This is a clear case of over-fitting. The over-fitting problem is solved by using two regularization techniques.
 
 ## [Basic Image Classification with TensorFlow](https://github.com/shejz/Coursera-guided-projects/tree/master/Basic%20Image%20Classification%20with%20TensorFlow)
 In this project, you will learn the basics of using Keras with TensorFlow as its backend and use it to solve a basic image classification problem. By the end of this project, you will have created, trained, and evaluated a Neural Network model that will be able to predict digits from hand-written images with a high degree of accuracy. 
+
+## [Facial Expression Recognition with Keras](https://github.com/shejz/Coursera-guided-projects/tree/master/Facial%20Recognition%20with%20Keras)
+In this project, you will build and train a convolutional neural network (CNN) in Keras from scratch to recognize facial expressions. The data consists of 48x48 pixel grayscale images of faces. The objective is to classify each face based on the emotion shown in the facial expression into one of seven categories (0=Angry, 1=Disgust, 2=Fear, 3=Happy, 4=Sad, 5=Surprise, 6=Neutral). You will use OpenCV to automatically detect faces in images and draw bounding boxes around them. Once you have trained, saved, and exported the CNN, you will directly serve the trained model to a web interface and perform real-time facial expression recognition on video and image data. 
+
+**Learning Objectives**
+
+- Develop a facial expression recognition model in Keras
+- Build and train a convolutional neural network (CNN)
+- Deploy the trained model to a web interface with Flask
+- Apply the model to real-time video streams and image data
