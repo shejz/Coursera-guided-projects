@@ -48,3 +48,8 @@ In this project, you will build and train a convolutional neural network (CNN) i
 ## [Create Custom Layers in Keras](https://github.com/shejz/Coursera-guided-projects/tree/master/Create%20Custom%20Layers%20in%20Keras)
 In this project-based course, you will learn how to create a custom layer in Keras and create a model using the custom layer. We will create a simplified version of a Parametric ReLU layer and use it in a neural network model. Then we will use the neural network to solve a multi-class classiﬁcation problem. We will also compare our activation layer with the more commonly used ReLU activation layer.
 
+**Learning Objectives**
+
+- How to create custom layers in Keras.
+- How to use custom layers in Keras models.
+
