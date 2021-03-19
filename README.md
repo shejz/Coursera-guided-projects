@@ -62,5 +62,25 @@ In this project, you will build and train a multilayer perceptronl (MLP) model u
 ## [Sentiment Analysis with Deep Learning using BERT](https://github.com/shejz/Coursera-guided-projects/tree/master/Sentiment%20Analysis%20with%20Deep%20Learning%20using%20BERT)
 In this project, you will learn how to analyze a dataset for sentiment analysis. You will learn how to read in a PyTorch BERT model, and adjust the architecture for multi-class classification. You will learn how to adjust an optimizer and scheduler for ideal training and performance. In fine-tuning this model, you will learn how to design a train and evaluate loop to monitor model performance as it trains, including saving and loading models. 
 
+## [Traffic Sign Classification](https://github.com/shejz/Coursera-guided-projects/tree/master/Traffic%20Sign%20Classification)
+In this hands-on project, we will train deep learning models known as Convolutional Neural Networks (CNNs) to classify 43 traffic sign images. This project could be practically applied to self-driving cars. 
 
+In this hands-on project we will go through the following tasks: 
+
+(1) Import libraries and datasets 
+(2) Images visualization 
+(3) Convert images to gray-scale and perform normalization 
+(4) Build deep learning model 
+(5) Compile and train deep learning model 
+(6) Assess trained model performance
+
+**Learning Objectives**
+
+- Understand the theory and intuition behind Convolutional Neural Networks (CNNs).
+- Apply Python libraries to import and visualize dataset images.
+- Perform image normalization and convert from color-scaled to gray-scaled images.
+- Build a Convolutional Neural Network using Keras with Tensorflow 2.0 as a backend.
+- Compile and fit Deep Learning model to training data.
+- Assess the performance of trained CNN and ensure its generalization using various KPIs such as accuracy, precision and recall.
+- Improve network performance using regularization techniques such as dropout.
 
