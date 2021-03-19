@@ -53,6 +53,9 @@ In this project-based course, you will learn how to create a custom layer in Ker
 - How to create custom layers in Keras.
 - How to use custom layers in Keras models.
 
+## [Creating Custom Callbacks in Keras](https://github.com/shejz/Coursera-guided-projects/tree/master/Creating%20Custom%20Callbacks%20in%20Keras)
+In this project-based course, you will learn to create a custom callback function in Keras and use the callback during a model training process. We will implement the callback function to perform three tasks: Write a log file during the training process, plot the training metrics in a graph during the training process, and reduce the learning rate during the training with each epoch.
+
 ## [Build Multilayer Perceptron Models with Keras](https://github.com/shejz/Coursera-guided-projects/tree/master/Build%20Multilayer%20Perceptron%20Models%20with%20Keras)
 In this project, you will build and train a multilayer perceptronl (MLP) model using Keras, with Tensorflow as its backend. We will be working with the Reuters dataset, a set of short newswires and their topics, published by Reuters in 1986. It's a very simple, widely used toy dataset for text classification. There are 46 different topics, some of which are more represented than others. But each topic has at least 10 examples in the training set. So in this project, you will build a MLP feed-forward neural network to classify Reuters newswires into 46 different mutually-exclusive topics.
 
