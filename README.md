@@ -19,6 +19,8 @@ The dataset we are going to use comes from the **National Institute of Diabetes 
 ## [Avoid Overfitting Using Regularization in TensorFlow](https://github.com/shejz/Coursera-guided-projects/tree/master/Avoid%20Overfitting%20Using%20Regularization%20in%20TensorFlow)
 In this project, you will learn the basics of using weight regularization and dropout regularization to reduce over-fitting in an image classification problem. By the end of this project, you will have created, trained, and evaluated a Neural Network model that, after the training and regularization, will predict image classes of input examples with similar accuracy for both training and validation sets.
 
+When we train neural network models, you may notice the model performing significantly better on training data as compared to data that it has not seen before, or not trained on before. This means that while we expect the model to learn the underlying patterns from a given data-set, often the model will also memorize the training examples. It will learn to recognize patterns which may be anomalous or may learn the peculiarities in the data-set. This phenomenon is called over-fitting and it's a problem because a model which is over-fit to the training data will not be able to generalize well to the data that it has not seen before and that sort of defeats the whole point of making the model learn anything at all. We want models which are able to give us predictions as accurately on new data as they can for the training data.
+
 - Develop an understanding on how to avoid over-fitting with weight regularization and dropout regularization
 - Be able to apply both weight regularization and dropout regularization in Keras with TensorFlow backend
 
