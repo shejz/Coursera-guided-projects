@@ -29,3 +29,6 @@ One of the reasons for **over-fitting** is that some of these parameter values c
 
 **Results**
 Now that your training is now complete, you should be able to see the training accuracy and the validation accuracy. The training accuracy keeps increasing as we train for more epochs and reaches a value that is consistently much higher than the validation accuracy. This is a clear case of over-fitting. The over-fitting problem is solved by using two regularization techniques.
+
+## [Basic Image Classification with TensorFlow](https://github.com/shejz/Coursera-guided-projects/tree/master/Basic%20Image%20Classification%20with%20TensorFlow)
+In this project, you will learn the basics of using Keras with TensorFlow as its backend and use it to solve a basic image classification problem. By the end of this project, you will have created, trained, and evaluated a Neural Network model that will be able to predict digits from hand-written images with a high degree of accuracy. 
