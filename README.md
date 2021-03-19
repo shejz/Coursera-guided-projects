@@ -59,3 +59,8 @@ In this project-based course, you will learn to create a custom callback functio
 ## [Build Multilayer Perceptron Models with Keras](https://github.com/shejz/Coursera-guided-projects/tree/master/Build%20Multilayer%20Perceptron%20Models%20with%20Keras)
 In this project, you will build and train a multilayer perceptronl (MLP) model using Keras, with Tensorflow as its backend. We will be working with the Reuters dataset, a set of short newswires and their topics, published by Reuters in 1986. It's a very simple, widely used toy dataset for text classification. There are 46 different topics, some of which are more represented than others. But each topic has at least 10 examples in the training set. So in this project, you will build a MLP feed-forward neural network to classify Reuters newswires into 46 different mutually-exclusive topics.
 
+## [Sentiment Analysis with Deep Learning using BERT](https://github.com/shejz/Coursera-guided-projects/tree/master/Sentiment%20Analysis%20with%20Deep%20Learning%20using%20BERT)
+In this project, you will learn how to analyze a dataset for sentiment analysis. You will learn how to read in a PyTorch BERT model, and adjust the architecture for multi-class classification. You will learn how to adjust an optimizer and scheduler for ideal training and performance. In fine-tuning this model, you will learn how to design a train and evaluate loop to monitor model performance as it trains, including saving and loading models. 
+
+
+
