@@ -16,3 +16,14 @@ In this project-based course, we will create a recommendation system using Colla
 ## [Medical Diagnosis using Support Vector Machines](https://github.com/shejz/Coursera-guided-projects/tree/master/Medical%20Diagnosis%20using%20Support%20Vector%20Machines)
 The dataset we are going to use comes from the **National Institute of Diabetes and Digestive and Kidney Diseases**, and contains anonymized diagnostic measurements for a set of female patients.  We will train a **support vector machine** to predict whether a new patient has diabetes based on such measurements.
 
+## [Avoid Overfitting Using Regularization in TensorFlow](https://github.com/shejz/Coursera-guided-projects/tree/master/Avoid%20Overfitting%20Using%20Regularization%20in%20TensorFlow)
+In this project, you will learn the basics of using weight regularization and dropout regularization to reduce over-fitting in an image classification problem. By the end of this project, you will have created, trained, and evaluated a Neural Network model that, after the training and regularization, will predict image classes of input examples with similar accuracy for both training and validation sets.
+
+- Develop an understanding on how to avoid over-fitting with weight regularization and dropout regularization
+- Be able to apply both weight regularization and dropout regularization in Keras with TensorFlow backend
+
+**Regularization**
+One of the reasons for **over-fitting** is that some of these parameter values can become somewhat large and therefore become too influential on the linear outputs of various hidden units and subsequently become too influential on the non-linear outputs from the activation functions as well. And it can be observed that by regularizing the weights in a way that their values don't become too large, we can reduce the over-fitting. In dropouts, by randomly removing certain nodes in a model, we are forcing the model to NOT assign large values to any particular weights - we are simply forcing the model to NOT rely on any particular weight too much. So, the result is, much like the weight normalization, that the values for weights will be regularized and will not become too large thereby reducing over-fitting.
+
+**Results**
+Now that your training is now complete, you should be able to see the training accuracy and the validation accuracy. The training accuracy keeps increasing as we train for more epochs and reaches a value that is consistently much higher than the validation accuracy. This is a clear case of over-fitting. The over-fitting problem is solved by using two regularization techniques.
