@@ -89,3 +89,6 @@ Implement DCGAN or Deep Convolutional Generative Adversarial Network, and you wi
 ## [Dimensionality Reduction using an Autoencoder](https://github.com/shejz/Coursera-guided-projects/tree/master/Dimensionality%20Reduction%20using%20an%20Autoencoder)
 In this project, you will learn how to generate your own high-dimensional dummy dataset. You will then learn how to preprocess it effectively before training a baseline PCA model. You will learn the theory behind the autoencoder, and how to train one in scikit-learn. You will also learn how to extract the encoder portion of it to reduce dimensionality of your input data. In the course of this project, you will also be exposed to some basic clustering strength metrics.
 
+## [Detecting COVID-19 with Chest X-Ray](https://github.com/shejz/Coursera-guided-projects/tree/master/Detecting%20COVID-19%20with%20Chest%20X-Ray%20using%20PyTorch)
+Use a ResNet-18 model and train it on a COVID-19 Radiography dataset. This dataset has nearly 3000 Chest X-Ray scans which are categorized in three classes - Normal, Viral Pneumonia and COVID-19. Our objective in this tutorial is to create an image classification model that can predict Chest X-Ray scans that belong to one of the three classes with a reasonably high accuracy.
+
